@@ -1,0 +1,13 @@
+# Local secrets and environment-specific data
+Password/
+[Pp]assword*
+*.local.*
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+.azure/
+evidence/private/
+# Generated ARM output
+bicep/main.json
