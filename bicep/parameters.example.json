@@ -1,0 +1,18 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "guestPrincipalId": {
+      "value": "REPLACE_GUEST_OBJECT_ID"
+    },
+    "operatorsGroupId": {
+      "value": "REPLACE_GROUP_OBJECT_ID"
+    },
+    "readerAssignmentName": {
+      "value": "REPLACE_EXISTING_READER_ASSIGNMENT_GUID"
+    },
+    "contributorAssignmentName": {
+      "value": "REPLACE_EXISTING_CONTRIBUTOR_ASSIGNMENT_GUID"
+    }
+  }
+}
